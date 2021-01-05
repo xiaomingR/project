@@ -1,0 +1,64 @@
+
+._top_height{
+	height: 36px;
+	background-color: #f4f4f4;
+}
+._language{
+	width: 20px;height: 20px;
+	background: url(../img/Sprites1.png);
+	background-size: 800%;
+	background-position: 474px 340px;
+	margin-top: 9px;
+}
+._msg{
+	width: 25px;height: 25px;
+	background: url(../img/Sprites1.png);
+	background-size: 800%;
+	background-position: 392px 135px;
+}
+._phone{
+	width: 25px;height: 25px;
+	background: url(../img/Sprites1.png);
+	background-size: 800%;
+	background-position:275px 129px;
+}
+._wechat{
+	width: 25px;height: 25px;
+	background: url(../img/Sprites1.png);
+	background-size: 800%;
+	background-position: 275px 87px;
+}
+a:hover{
+	text-decoration: none;
+}
+.font_sm{
+	font-size: 0.8rem;
+}
+
+.flag{
+	width: 20px; height: 17px;
+	background: url(../img/flag.jpg) ;
+	background-size: 2000%;
+}
+._china{background-position: 0px 0px;}
+._us{background-position: 0px 0px;}
+._line_height{line-height: 36px;}
+.breadcrumb-item+.breadcrumb-item::before{
+	content: "|";
+}
+._logo{height: 80px;}
+._input{
+	border: 1px solid #0aa1ed;
+	border-radius: 4px;
+}
+._phone_short{
+	border: 1px solid #fff;
+}
+._phone_long{display: none;}
+._phone_num:hover ._phone_long{
+	display: block;
+	border: 1px solid #ddd;
+}
+._phone_num:hover ._phone_short{
+	display: none;
+}
