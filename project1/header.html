@@ -1,99 +1,133 @@
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Document</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/comm.css"/>
-		<link rel="stylesheet" type="text/css" href="css/header.css"/>
-		<style>
-			.bg-grey{
-				background-color: #f4f4f4;
-			}
-			.language:hover{
-				background-color: #fff;
-				cursor: default;
-			}
-		</style>
-	</head>
-	<body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>携程旅游</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/comm.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <style>
+        .bg-grey {
+            background-color: #f4f4f4;
+        }
+        
+        .language:hover {
+            background-color: #fff;
+            cursor: default;
+        }
+    </style>
+</head>
+
+<body>
 		<!-- 顶部 -->
 		<div class="container-fluid bg-grey _top_height">
+        <div class="container ">
+            <div class="row no-gutters  w-100">
+                <!-- 语言栏 -->
+                <div class="col-lg-5 pl-5  col-sm-10">
+                    <div class="row no-gutters _line_height">
+                        <span class="col-3 font_sm">让旅行更幸福</span>
+                        <div class="dropdown col-9  d-flex flex-nowrap">
+                            <div class="_language"></div>
+                            <span data-toggle="dropdown" class="dropdown-toggle font_sm">Language</span>
+                            <ul class="dropdown-menu">
+                                <li class="font_sm  d-flex flex-nowrap">
+                                    <div class="flag _china"></div>简体中文
+                                </li>
+                                <li class="font_sm  d-flex flex-nowrap">
+                                    <div class="flag _us"></div>English(United States)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 登录 -->
+                <div class="col-lg-1 col-sm-2">
+                    <a href="#" class="font_sm _line_height">您好, 请登录</a>
+                </div>
+                <!-- 面包屑导航 -->
+                <div class="col-lg-6 col-sm-12">
+                    <ul class="breadcrumb font_sm bg-transparent pt-2">
+                        <li class="breadcrumb-item"><a href="#" class="text-muted">免费注册</a></li>
+                        <li class="breadcrumb-item d-flex flex-nowrap">
+                            <div class="_msg"></div><a href="#" class="text-muted">消息</a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="#" class="text-muted">我的携程</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="text-muted">我的订单</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="text-muted">客服中心</a></li>
+                        <li class="breadcrumb-item d-flex flex-nowrap">
+                            <div class="_phone mr-4"></div>
+                            <div class="_wechat"></div>
+                        </li>
+                    </ul>
+                </div>
+								
+            </div>
+          </div>
+				</div>
+        <!-- Logo栏 -->
+        <div class="container _logo mt-3 mb-0">
+            <div class="row no-gutters">
+								<!-- logo -->
+                <div class="col-3"><img src="img/CtripLogo.png" class="w-75"></div>
+								<!-- 搜索框 -->
+                <div class="d-flex col-9 pl-5 align-items-center">
+                    <div class="_input d-flex w-50">
+                        <input class="form-control font_sm border-primary rounded-0 border-0 " placeholder="搜索旅行地/酒店/旅游/景点门票/交通">
+                        <a href="#"><img src="img/search.png"></a>
+                    </div>
+                </div>
+            </div>
+						<!-- 电话 -->
+            <div class="_float">
+                <div class="_phone_num">
+                    <div class="_phone_short">
+                        <div class="d-flex flex-column align-items-end justify-content-end">
+                            <span>境内：95010</span>
+                            <span>（或）400-830-6666 </span>
+                        </div>
+                    </div>
+
+                    <div class="_phone_long ">
+                        <div class="d-flex flex-column align-items-end justify-content-end ">
+                            <span>境内：95010</span>
+                            <span>（或）400-830-6666 </span>
+                            <span>香港 (中国) : + 852-3008-3295</span>
+                            <span>境外: + 86-21-3406-4888 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+		<!-- 选项栏 -->
+		<div class="bg-primary container-fluid">
 			<div class="container">
-				<div class="row no-gutters  w-100">
-					<!-- 语言栏 -->
-					<div class="col-lg-5 pl-5  col-sm-10">
-						<div class="row no-gutters _line_height">
-							<span class="col-3 font_sm">让旅行更幸福</span>
-							<div class="dropdown col-9  d-flex flex-nowrap">
-								<div class="_language"></div>
-								<span data-toggle="dropdown" class="dropdown-toggle font_sm">Language</span>
-								<ul class="dropdown-menu">
-									<li class="font_sm  d-flex flex-nowrap"><div class="flag _china"></div>简体中文</li>
-									<li class="font_sm  d-flex flex-nowrap"><div class="flag _us"></div>English(United States)</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!-- 登录 -->
-					<div class="col-lg-1 col-sm-2">
-						<a href="#" class="font_sm _line_height">您好, 请登录</a>
-					</div>
-					<!-- 面包屑导航 -->
-					<div class="col-lg-6 col-sm-12">
-						<ul class="breadcrumb font_sm bg-transparent pt-2">
-							<li class="breadcrumb-item"><a href="#" class="text-muted">免费注册</a></li>
-							<li class="breadcrumb-item d-flex flex-nowrap"><div class="_msg"></div><a href="#"  class="text-muted">消息</a></li>
-							<li class="breadcrumb-item"><a href="#" class="text-muted">我的携程</a></li>
-							<li class="breadcrumb-item"><a href="#" class="text-muted">我的订单</a></li>
-							<li class="breadcrumb-item"><a href="#" class="text-muted">客服中心</a></li>
-							<li class="breadcrumb-item d-flex flex-nowrap"  ><div class="_phone mr-4"></div><div class="_wechat"></div></li>
-						</ul>
-					</div> 
-				</div>
+				 <ul class="breadcrumb w-100 _ul">
+			      <li class="breadcrumb-item "><a href="#">首页</a></li>
+			      <li class="breadcrumb-item "><a href="#">酒店</a></li>
+			      <li class="breadcrumb-item "><a href="#">旅游</a></li>
+			      <li class="breadcrumb-item "><a href="#">跟团游</a></li>
+			      <li class="breadcrumb-item "><a href="#">机票</a></li>
+			      <li class="breadcrumb-item "><a href="#">火车</a></li>
+			      <li class="breadcrumb-item "><a href="#">汽车·船</a></li>
+			      <li class="breadcrumb-item "><a href="#">用车</a></li>
+			      <li class="breadcrumb-item "><a href="#">门票</a></li>
+			      <li class="breadcrumb-item "><a href="#">攻略</a></li>
+			      <li class="breadcrumb-item "><a href="#">全球购</a></li>
+			      <li class="breadcrumb-item "><a href="#">礼品卡</a></li>
+			      <li class="breadcrumb-item "><a href="#">商旅</a></li>
+			      <li class="breadcrumb-item "><a href="#">邮轮</a></li>
+			      <li class="breadcrumb-item "><a href="#">目的地</a></li>
+			      <li class="breadcrumb-item "><a href="#">金融</a></li>
+			      <li class="breadcrumb-item "><a href="#">更多</a></li>
+			  </ul>
 			</div>
-			<!-- 头部 -->
-			<div class="container _logo">
-				<div class="row no-gutters">
-					<div class="col-3"><img src="img/CtripLogo.png" class="w-100"></div>
-					<div class="d-flex col-6 pl-5 align-items-center ">
-						<div class="_input d-flex w-75">
-							<input class="form-control font_sm border-primary rounded-0 border-0" placeholder="搜索旅游地/酒店/旅游/景点门票/交通">
-						<a href="#"><img src="img/search.png" ></a>
-						</div>
-					</div>
-					<div class="col-3">
-						<div class="_phone_num">
-							<div class="_phone_short">
-								<div class="d-flex flex-column align-items-end justify-content-end">
-									<span>境内：95010</span>
-									<span>（或）400-830-6666 </span>
-								</div>
-							</div>
-							
-							<div class="_phone_long ">
-								<div class="d-flex flex-column align-items-end justify-content-end ">
-									<span>境内：95010</span>
-									<span>（或）400-830-6666 </span>
-									<span>香港 (中国) : + 852-3008-3295</span>
-									<span>境外: + 86-21-3406-4888 </span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- 选项栏 -->
-				<div class="container">
-				<ul class="breadcrumb bg-primary w-100">
-					<li class="breadcrumb-item"><a href="">首页</a></li>
-				</ul>
 		</div>
-			</div>
-			
-		
-		</div>
-	</body>
+</body>
+
 </html>
