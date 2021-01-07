@@ -10,7 +10,7 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/comm.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
     <style>
         .bg-grey {
             background-color: #f4f4f4;
@@ -27,11 +27,14 @@
 		<!-- 顶部 -->
 		<div class="container-fluid bg-grey _top">
         <div class=" _top_width">
-            <div class="row no-gutters  ">
+            <div class="d-flex flex-nowrap">
                 <!-- 语言栏 -->
-                    <div class="row no-gutters mt-2">
+                    <div class="row no-gutters">
 												<!-- 头部文字 -->
-                        <span class="_top_left font_sm">让旅行更幸福</span>
+												<div>
+													<span class="_top_left font_sm">让旅行更幸福</span>
+												</div>
+                        
 												<!-- 选择语言 -->
                         <div class=" d-flex flex-nowrap ">
 													<div class="_language"> 
@@ -50,14 +53,15 @@
                             </ul>
                         </div>
                     </div>
-								<div class="d-flex flex-nowrap align-items-end">
+							<div class="d-flex flex-nowrap">
 									<!-- 登录 -->
-                <div class="mt-2">
-                    <a href="#" class="font_sm ">您好, 请登录</a>
-                </div>
+									<div class=" _login  _top_right">
+										<a href="#" class="font_sm ">您好, 请登录</a>
+									</div>
+                   
                 <!-- 面包屑导航 -->
-                <div class="">
-                    <ul class="breadcrumb font_sm bg-transparent pt-2">
+                <div class="_breadcrumb">
+                    <ul class="breadcrumb font_sm bg-transparent  _top_right">
                         <li class="breadcrumb-item"><a href="#" class="text-muted">免费注册</a></li>
                         <li class="breadcrumb-item d-flex flex-nowrap">
                             <div class="_msg"></div><a href="#" class="text-muted">消息</a>
@@ -71,19 +75,18 @@
                         </li>
                     </ul>
                 </div>
-								</div>
-                
-								
+							</div>
+							
             </div>
           </div>
-				</div>
+		</div>
         <!-- Logo栏 -->
-        <div class="container _logo mt-3 mb-0">
+        <div class=" _logo ">
             <div class="row no-gutters">
 								<!-- logo -->
-                <div class="col-3"><img src="img/CtripLogo.png" class="w-75"></div>
+                <div class="_logo_img"><img src="img/CtripLogo.png" class="w-100"></div>
 								<!-- 搜索框 -->
-                <div class="d-flex col-9 pl-5 align-items-center">
+                <div class="d-flex align-items-center">
                     <div class="_input d-flex w-50">
                         <input class="form-control font_sm border-primary rounded-0 border-0 " placeholder="搜索旅行地/酒店/旅游/景点门票/交通">
                         <a href="#"><img src="img/search.png"></a>

@@ -8,20 +8,25 @@
 	padding: 0;
 	height: 36px;
 	width: 1180px;
+	position: relative;
 }
 ._top_left{
 	display: inline-block;
+	line-height: 36px;
 }
 ._language{
 	position: relative;
 	display: inline-block;
+	line-height: 36px;
 	padding: 0 15px 0 13px;
 	border: 1px solid transparent;
 }
 ._spirit{
-	display: inline-block;
+	display: block;
+	text-align: center;
 	width: 20px;height: 20px;
 	background: url(../img/Sprites1.png);
+	margin-top: 8px;
 	background-position: -5px -5px;
 }
 ._language_text{
@@ -35,24 +40,45 @@
 	background-position: 433px 293px;
 	margin-top: 11px;
 }
-
+._top_right{
+	height: 36px;
+	position: relative;
+	padding: 12px 0;
+	text-align: center;
+	border: 1px solid transparent;
+	border-bottom:none;
+	line-height: 12px;
+}
+._login{
+	width: 72px;
+	margin: 0px auto;
+	position: absolute;
+	right: 440px;
+}
+._breadcrumb{
+	position: absolute;
+	right: 0px;
+}
 ._msg{
-	width: 25px;height: 25px;
+	display: block;
+	text-align: center;
+	width: 20px;height: 20px;
 	background: url(../img/Sprites1.png);
-	background-size: 800%;
-	background-position: 392px 135px;
+	background-position: -3px -64px;
 }
 ._phone{
-	width: 25px;height: 25px;
+	display: block;
+	text-align: center;
+	width: 20px;height: 20px;
 	background: url(../img/Sprites1.png);
-	background-size: 800%;
-	background-position:275px 129px;
+	background-position: -97px -68px;
 }
 ._wechat{
-	width: 25px;height: 25px;
+	display: block;
+	text-align: center;
+	width: 20px;height: 20px;
 	background: url(../img/Sprites1.png);
-	background-size: 800%;
-	background-position: 275px 87px;
+	background-position: -97px -100px;
 }
 a:hover{
 	text-decoration: none;
@@ -72,7 +98,19 @@ a:hover{
 .breadcrumb-item+.breadcrumb-item::before{
 	content: "|";
 }
-._logo{height: 60px;}
+._logo{
+	height: 80px;
+	width: 1180px;
+	position: relative;
+	min-width: 980px;
+	max-width: 1180px;
+	margin: 0px auto;
+}
+._logo_img{
+	display: block;
+	width: 203px;
+	height: 34px;
+}
 ._input{
 	border: 1px solid #0aa1ed;
 	border-radius: 4px;
