@@ -1,16 +1,41 @@
 
 .container{position: relative;}
-._top_height{
-	height: 36px;
+._top{
 	background-color: #f4f4f4;
 }
+._top_width{
+	margin: auto;
+	padding: 0;
+	height: 36px;
+	width: 1180px;
+}
+._top_left{
+	display: inline-block;
+}
 ._language{
+	position: relative;
+	display: inline-block;
+	padding: 0 15px 0 13px;
+	border: 1px solid transparent;
+}
+._spirit{
+	display: inline-block;
 	width: 20px;height: 20px;
 	background: url(../img/Sprites1.png);
-	background-size: 800%;
-	background-position: 474px 340px;
-	margin-top: 9px;
+	background-position: -5px -5px;
 }
+._language_text{
+	position: absolute;
+	top: 0px;left: 35px;
+}
+._triangle{
+	width: 14px;height: 14px;
+	background: url(../img/Sprites1.png);
+	background-size: 800%;
+	background-position: 433px 293px;
+	margin-top: 11px;
+}
+
 ._msg{
 	width: 25px;height: 25px;
 	background: url(../img/Sprites1.png);
@@ -33,7 +58,8 @@ a:hover{
 	text-decoration: none;
 }
 .font_sm{
-	font-size: 0.8rem;
+	font-size: 12px;
+	color: #666;
 }
 
 .flag{
@@ -43,7 +69,6 @@ a:hover{
 }
 ._china{background-position: 0px 0px;}
 ._us{background-position: 0px 0px;}
-._line_height{line-height: 36px;}
 .breadcrumb-item+.breadcrumb-item::before{
 	content: "|";
 }
@@ -74,15 +99,21 @@ a:hover{
 	z-index: 2;
 }
 ._ul{
+	height: 50px;
 	list-style: none;
 	background:transparent;
+	padding: 0;
 }
 ._ul a{
 	color: #fff;
-	line-height: 1.5rem;
 	font-size: 1rem;
 }
 
-._ul a:hover{
+._ul li{
+	padding:0.8rem;
+}
+
+
+._ul li:hover{
 	background-color: blue;
 }

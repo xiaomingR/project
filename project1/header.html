@@ -10,6 +10,7 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/comm.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
     <style>
         .bg-grey {
             background-color: #f4f4f4;
@@ -24,16 +25,21 @@
 
 <body>
 		<!-- 顶部 -->
-		<div class="container-fluid bg-grey _top_height">
-        <div class="container ">
-            <div class="row no-gutters  w-100">
+		<div class="container-fluid bg-grey _top">
+        <div class=" _top_width">
+            <div class="row no-gutters  ">
                 <!-- 语言栏 -->
-                <div class="col-lg-5 pl-5  col-sm-10">
-                    <div class="row no-gutters _line_height">
-                        <span class="col-3 font_sm">让旅行更幸福</span>
-                        <div class="dropdown col-9  d-flex flex-nowrap">
-                            <div class="_language"></div>
-                            <span data-toggle="dropdown" class="dropdown-toggle font_sm">Language</span>
+                    <div class="row no-gutters mt-2">
+												<!-- 头部文字 -->
+                        <span class="_top_left font_sm">让旅行更幸福</span>
+												<!-- 选择语言 -->
+                        <div class=" d-flex flex-nowrap ">
+													<div class="_language"> 
+														<div class="_spirit"></div>
+                            <span class="font_sm _language_text">Language</span>
+														<div class="_triangle"></div>
+													</div>
+														<!-- 语言下拉框 -->
                             <ul class="dropdown-menu">
                                 <li class="font_sm  d-flex flex-nowrap">
                                     <div class="flag _china"></div>简体中文
@@ -44,13 +50,13 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <!-- 登录 -->
-                <div class="col-lg-1 col-sm-2">
-                    <a href="#" class="font_sm _line_height">您好, 请登录</a>
+								<div class="d-flex flex-nowrap align-items-end">
+									<!-- 登录 -->
+                <div class="mt-2">
+                    <a href="#" class="font_sm ">您好, 请登录</a>
                 </div>
                 <!-- 面包屑导航 -->
-                <div class="col-lg-6 col-sm-12">
+                <div class="">
                     <ul class="breadcrumb font_sm bg-transparent pt-2">
                         <li class="breadcrumb-item"><a href="#" class="text-muted">免费注册</a></li>
                         <li class="breadcrumb-item d-flex flex-nowrap">
@@ -65,6 +71,8 @@
                         </li>
                     </ul>
                 </div>
+								</div>
+                
 								
             </div>
           </div>
@@ -105,7 +113,7 @@
         </div>
 		</div>
 		<!-- 选项栏 -->
-		<div class="bg-primary container-fluid">
+		<!-- <div class="bg-primary container-fluid">
 			<div class="container">
 				 <ul class="breadcrumb w-100 _ul">
 			      <li class="breadcrumb-item "><a href="#">首页</a></li>
@@ -125,6 +133,30 @@
 			      <li class="breadcrumb-item "><a href="#">目的地</a></li>
 			      <li class="breadcrumb-item "><a href="#">金融</a></li>
 			      <li class="breadcrumb-item "><a href="#">更多</a></li>
+			  </ul>
+			</div>
+		</div> -->
+		<!-- 备用选项栏 -->
+		<div class="bg-primary container-fluid">
+			<div class="container">
+				 <ul class="d-flex flex-nowrap justify-content-between w-100 _ul">
+			      <li class="align-items-center "><a href="#">首页</a></li>
+			      <li class="align-items-center "><a href="#">酒店</a></li>
+			      <li class="align-items-center "><a href="#">旅游</a></li>
+			      <li class="align-items-center "><a href="#">跟团游</a></li>
+			      <li class="align-items-center "><a href="#">机票</a></li>
+			      <li class="align-items-center "><a href="#">火车</a></li>
+			      <li class="align-items-center "><a href="#">汽车·船</a></li>
+			      <li class="align-items-center "><a href="#">用车</a></li>
+			      <li class="align-items-center "><a href="#">门票</a></li>
+			      <li class="align-items-center "><a href="#">攻略</a></li>
+			      <li class="align-items-center "><a href="#">全球购</a></li>
+			      <li class="align-items-center "><a href="#">礼品卡</a></li>
+			      <li class="align-items-center "><a href="#">商旅</a></li>
+			      <li class="align-items-center "><a href="#">邮轮</a></li>
+			      <li class="align-items-center "><a href="#">目的地</a></li>
+			      <li class="align-items-center "><a href="#">金融</a></li>
+			      <li class="align-items-center "><a href="#">更多</a></li>
 			  </ul>
 			</div>
 		</div>
