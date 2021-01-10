@@ -54,6 +54,7 @@
 	margin: 0px auto;
 	position: absolute;
 	right: 440px;
+	font-size: 12px;
 }
 ._breadcrumb{
 	position: absolute;
@@ -83,6 +84,7 @@
 a:hover{
 	text-decoration: none;
 }
+
 .font_sm{
 	font-size: 12px;
 	color: #666;
