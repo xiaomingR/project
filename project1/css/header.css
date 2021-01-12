@@ -176,24 +176,33 @@ a:hover{
 	background:transparent;
 	text-align: center;
 }
-
+.bg-blue{
+	background-color:#2577e3 !important;
+}
 ._ul a{
 	color: #fff;
 	font-size: 1rem;
 	line-height: 40px;
 }
 
-._ul li{
+.unnull{
 	float: left;
 	display: inline-block;
-	padding:0 6px;
+	padding:0 11px;
 	height: 40px;
 	font-size: 15px;
 }
 
 
-._ul li:hover{
-	background-color: blue;
+.unnull:hover{
+	background-color: #0a56bb;
+}
+.null{
+	background-color: #666;
+	width: 0.5px;
+	float: left;
+	line-height: 10px;
+	margin: 15px 0;
 }
 .l{
 	float: left;
