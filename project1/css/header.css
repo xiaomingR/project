@@ -181,22 +181,24 @@ a:hover{
 	line-height: 40px;
 }
 
-._ul li{
+.unnull{
 	float: left;
 	display: inline-block;
-	padding:0 6px;
+	padding:0 11px;
 	height: 40px;
 	font-size: 15px;
 }
 
 
-._ul li:hover{
+.unnull:hover{
 	background-color: blue;
 }
-.l{
+
+.null{
+	width: 0.2px;
 	float: left;
-	width: 2px;
-	margin-top: 7px;
-	font-weight: lighter;
-	text-align: center;
+	display: inline-block;
+	background-color: #666;
+	line-height: 14px;
+	margin: 14px 0;
 }
