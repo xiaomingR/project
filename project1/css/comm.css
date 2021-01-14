@@ -1,0 +1,11 @@
+._top_width{
+	margin: auto;
+	padding: 0;
+	height: 36px;
+	width: 1180px;
+	position: relative;
+}
+.font_sm{
+	font-size: 12px;
+	color: #666;
+}

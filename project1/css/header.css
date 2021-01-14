@@ -3,13 +3,7 @@
 ._top{
 	background-color: #f4f4f4;
 }
-._top_width{
-	margin: auto;
-	padding: 0;
-	height: 36px;
-	width: 1180px;
-	position: relative;
-}
+
 ._top_left{
 	display: inline-block;
 	line-height: 36px;
@@ -41,23 +35,38 @@
 	margin-top: 11px;
 }
 ._top_right{
+	list-style: none;
+	line-height: 36px;
+	position: absolute;
+	right: 0px;
+	top: ;	
+}
+._right{
+	float: left;
+	width: 92px;
+	text-align: center;
+}
+.register:hover{
+	color: #3983e5 !important;
+}
+.msg{
+	margin: 0 18px;
+}
+._login{
+	width: 72px;
+	margin: 0px auto;
+	position: absolute;
+	right: 550px;
+	font-size: 12px;
 	height: 36px;
-	position: relative;
 	padding: 12px 0;
 	text-align: center;
 	border: 1px solid transparent;
 	border-bottom:none;
 	line-height: 12px;
 }
-._login{
-	width: 72px;
-	margin: 0px auto;
-	position: absolute;
-	right: 440px;
-}
-._breadcrumb{
-	position: absolute;
-	right: 0px;
+.font_login{
+	color: #007aff;
 }
 ._msg{
 	display: block;
@@ -65,7 +74,9 @@
 	width: 20px;height: 20px;
 	background: url(../img/Sprites1.png);
 	background-position: -3px -64px;
+	margin-top: 12px;
 }
+.phone,.wechat{height: 36px;padding: 10px;}
 ._phone{
 	display: block;
 	text-align: center;
@@ -83,10 +94,7 @@
 a:hover{
 	text-decoration: none;
 }
-.font_sm{
-	font-size: 12px;
-	color: #666;
-}
+
 
 .flag{
 	width: 20px; height: 17px;
@@ -95,9 +103,7 @@ a:hover{
 }
 ._china{background-position: 0px 0px;}
 ._us{background-position: 0px 0px;}
-.breadcrumb-item+.breadcrumb-item::before{
-	content: "|";
-}
+
 ._logo{
 	height: 80px;
 	width: 1180px;
@@ -118,7 +124,7 @@ a:hover{
 	left: 270px;
 	width: 350px;
 	height: 32px;
-	border: 2px solid #8ebefc;
+	border: 1px solid #8ebefc;
 	box-shadow: 2px 2px 1px rgba(164, 203, 255, 0.25) inset;
 	border-radius: 4px;
 }
@@ -130,8 +136,21 @@ a:hover{
 	margin: 2px;
 }
 .search{
-	width: 36px;
 	opacity: 0.5;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 42px;
+	height: 30px;
+	cursor: pointer;
+	border: 0 none;
+	background-color: #007bff;
+	border-radius: 0;
+	text-align: center;
+}
+._search{
+	width: 20px;height: 20px;
+	margin-top: 5px;
 }
 ._input:focus{
 	box-shadow: none;
@@ -174,7 +193,9 @@ a:hover{
 	background:transparent;
 	text-align: center;
 }
-
+.bg-blue{
+	background-color:#2577e3 !important;
+}
 ._ul a{
 	color: #fff;
 	font-size: 1rem;
@@ -191,14 +212,12 @@ a:hover{
 
 
 .unnull:hover{
-	background-color: blue;
+	background-color: #0a56bb;
 }
-
 .null{
-	width: 0.2px;
-	float: left;
-	display: inline-block;
 	background-color: #666;
-	line-height: 14px;
-	margin: 14px 0;
+	width: 0.5px;
+	float: left;
+	line-height: 10px;
+	margin: 15px 0;
 }
