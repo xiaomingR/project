@@ -1,0 +1,44 @@
+.footer{
+	padding: 28px 0 30px 0;
+	color: #666;
+	min-width: 980px;
+	max-width: 1180px;
+	margin: 28px auto 0;
+}
+.cut{
+	width: 1px;
+	height: 150px;
+	background-color: #666;
+}
+.left1{
+	width: 235px;
+	height: 150px;
+	margin-right: 10px;
+}
+.left1>div>a{
+	text-decoration: none;
+}
+.left1>p{
+	margin-bottom: 5px;
+}
+._heart{
+	display: block;
+	text-align: center;
+	width: 40px;height: 40px;
+	background: url(../img/pic_partner.png);
+	background-position:40px -247px;
+	margin: 0 8px 0 0;
+}
+._rmb{
+	display: block;
+	text-align: center;
+	width: 40px;height: 40px;
+	background: url(../img/pic_partner.png);
+	background-position:40px -197px;
+	margin: 0 8px 0 0;
+}
+.service,.price{
+	font-weight: bolder;
+}
+.service{color: #2577e3;}
+.price{color: #ff9913;}

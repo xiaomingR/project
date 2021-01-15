@@ -1,5 +1,13 @@
 
 .container{position: relative;}
+._top_width{
+	margin: auto;
+	padding: 0;
+	height: 36px;
+	min-width: 980px;
+	max-width: 1180px;
+	position: relative;
+}
 ._top{
 	background-color: #f4f4f4;
 }
