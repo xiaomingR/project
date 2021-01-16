@@ -3,3 +3,6 @@
 	font-size: 12px;
 	color: #666;
 }
+.container{
+	box-sizing: border-box;
+}
