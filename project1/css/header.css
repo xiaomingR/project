@@ -46,8 +46,8 @@
 	list-style: none;
 	line-height: 36px;
 	position: absolute;
-	right: 0px;
-	top: ;	
+	right: 0px; 
+	padding: 0;
 }
 ._right{
 	float: left;
