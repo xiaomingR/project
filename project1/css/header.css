@@ -2,6 +2,15 @@
     position: relative;
 }
 
+.bg-grey {
+    background-color: #f4f4f4;
+}
+
+.language:hover {
+    background-color: #fff;
+    cursor: default;
+}
+
 ._top_width {
     margin: auto;
     padding: 0;
@@ -29,8 +38,7 @@
 }
 
 ._spirit {
-    display: block;
-    text-align: center;
+    display: inline-block;
     width: 20px;
     height: 20px;
     background: url(../img/Sprites1.png);
@@ -39,9 +47,11 @@
 }
 
 ._language_text {
+    width: 120px;
     position: absolute;
     top: 0px;
     left: 35px;
+    line-height: 36px;
 }
 
 ._triangle {
@@ -51,6 +61,127 @@
     background-size: 800%;
     background-position: 433px 293px;
     margin-top: 11px;
+}
+
+.language_drop {
+    width: 613px;
+    height: 302px;
+    padding: 10px;
+    margin: 0;
+}
+
+.language_drop>li {
+    list-style: none;
+    float: left;
+    display: inline-block;
+    width: 183px;
+    padding: 5px 7px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 31;
+}
+
+.language_drop>li>a {
+    font: 12px/20px "Microsoft yahei", tahoma, arial, sans-serif;
+    color: #4c4c4c;
+    height: 20px;
+    padding-top: 0;
+}
+
+.flag {
+    background-image: url(../img/un_header_language_1807.png);
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    display: block;
+    padding-left: 26px;
+}
+
+.language_China {
+    position: 0px 0px;
+}
+
+.language_US {
+    position: 0px 0px;
+}
+
+.language_UK {
+    position: 0px 0px;
+}
+
+.language_HK {
+    position: 0px 0px;
+}
+
+.language_Ko {
+    position: 0px 0px;
+}
+
+.language_JP {
+    position: 0px 0px;
+}
+
+.language_Sg {
+    position: 0px 0px;
+}
+
+.language_Au {
+    position: 0px 0px;
+}
+
+.language_De {
+    position: 0px 0px;
+}
+
+.language_Fr {
+    position: 0px 0px;
+}
+
+.language_Es {
+    position: 0px 0px;
+}
+
+.language_It {
+    position: 0px 0px;
+}
+
+.language_ru {
+    position: 0px 0px;
+}
+
+.language_Th {
+    position: 0px 0px;
+}
+
+.language_Id {
+    position: 0px 0px;
+}
+
+.language_My {
+    position: 0px 0px;
+}
+
+.language_Vn {
+    position: 0px 0px;
+}
+
+.language_Nl {
+    position: 0px 0px;
+}
+
+.language_Pl {
+    position: 0px 0px;
+}
+
+.language_Gr {
+    position: 0px 0px;
+}
+
+.language_Tr {
+    position: 0px 0px;
+}
+
+.language_Pt {
+    position: 0px 0px;
 }
 
 ._top_right {
@@ -65,6 +196,18 @@
     float: left;
     width: 92px;
     text-align: center;
+}
+
+.arrow {
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    vertical-align: middle;
+    margin-left: 2px;
+    overflow: hidden;
+    background-position: -46px -58px;
+    background-image: url(../img/Sprites1.png);
+    background-repeat: no-repeat;
 }
 
 .register:hover {
@@ -129,21 +272,6 @@
 
 a:hover {
     text-decoration: none;
-}
-
-.flag {
-    width: 20px;
-    height: 17px;
-    background: url(../img/flag.jpg);
-    background-size: 2000%;
-}
-
-._china {
-    background-position: 0px 0px;
-}
-
-._us {
-    background-position: 0px 0px;
 }
 
 ._logo {
