@@ -1,19 +1,6 @@
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>携程旅游Footer</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-		<link rel="stylesheet" type="text/css" href="./css/comm.css"/>
-		<link rel="stylesheet" type="text/css" href="./css/footer.css"/>
-	</head>
-	<body>
-		<div class="footer">
-			
+<template>
+    <div>
+        <div class="footer">
 			<div class="_footer d-flex flex-nowrap">
 				
 				<!-- 左1 -->
@@ -186,8 +173,239 @@
 					</a>
 					
 				</div>
-			</div>
+		    </div>
+		    </div>
 		</div>
-	</div>
-	</body>
-</html>
+    </div>
+</template>
+<style scoped>
+.footer{
+	width:100%;
+	padding: 0;
+}
+._footer{
+	padding: 28px 0 30px 0;
+	color: #666;
+	width: 1180px;
+	margin: 0 auto;
+	height: 208px;
+}
+.left1{
+	width: 245px;
+	height: 150px;
+	padding-right: 10px;
+	margin-left: -1px;
+}
+.left1>div>a{
+	text-decoration: none;
+}
+.left1>p{
+	margin-bottom: 5px;
+}
+._heart{
+	display: block;
+	text-align: center;
+	width: 40px;height: 40px;
+	background: url(../../public/img/pic_partner.png);
+	background-position:40px -247px;
+	margin: 0 8px 0 0;
+}
+._rmb{
+	display: block;
+	text-align: center;
+	width: 40px;height: 40px;
+	background: url(../../public/img/pic_partner.png);
+	background-position:40px -197px;
+	margin: 0 8px 0 0;
+}
+.service,.price{
+	font-weight: bolder;
+}
+.service{color: #2577e3;}
+.price{color: #ff9913;}
+ul{
+	list-style: none;
+}
+._ul{
+	width: 261px;
+	height: 150px;
+	padding: 0 10px 0 40px;
+	float: left;
+	border-left: 1px solid #dedede;
+	margin-left: -1px;
+}
+
+._ul>p{
+	font:16px/20px 'Microsoft yahei';
+	margin-bottom: 10px;
+	margin-top: -3px;
+}
+._ul>ul{
+	padding: 0;
+	white-space: nowrap;
+}
+._ul>ul>li{
+	line-height: 14px;
+	display: inline-block;
+	margin: 6px 0;
+	float:left;
+}
+._ul>ul>li>a{
+	color: #666;
+	line-height: 14px;
+	text-decoration: none;
+}
+._ul>ul>li>a:hover{
+	color: #3983e5;
+}
+.left2>ul>li{width: 104px;}
+.middle>ul>li{width: 90px;}
+.right2{padding-right: 0px;width: 251px;}
+.right1{
+	text-align: center;
+	width: 161px;height: 150px;
+	padding:0 0 0 30px ;
+}
+._wechat_btm{
+	width: 132px;
+	height: 170px;
+	float: left;
+	padding: 8px;
+	border: 1px solid #efefef;
+	margin: 6px 0;
+}
+._wechat_btm>p:nth-child(2){
+	font-size: 12px;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 1.3;
+	color: #999;
+}
+._wechat_btm>p:last-child{
+	font-size: 12px;
+	color: #999;
+	margin-top: 0px;
+}
+._btm{
+	width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+.text1>p{
+	margin-bottom: 2px;
+}
+._text>a,._text>span{
+	color: #999;
+	text-decoration: none;
+}
+._text>a:hover{
+	color: #3983e5;
+}
+
+.text2{
+	margin-top: 5px;
+	display: inline-block;
+	position: relative;
+}
+.police{
+	display: inline-block;
+	text-align: center;
+	width: 20px;height: 20px;
+	background: url(../../public/img/phone_list20190617.png);
+	background-position: 0px -235px;
+	position: absolute;
+	top: 0px;
+	left: -20px;
+}
+.text3{margin-top: 10px;}
+.btm_btm{
+	width: 1180px;
+}
+.btm_left{
+	width: 600px;
+	height: 34px;
+	margin-top: -10px;
+	margin-left: auto;
+}
+.btm1{
+	margin: 0 auto;
+	border: 1px solid #d1d1d1;
+	width: 90px;height: 34px;
+	position: relative;
+}
+.btm1,.btm2,.btm3,.btm4,.btm5,.btm6,.btm7,.btm8,.btm9,.btm10{
+	margin: 0 4px;
+}
+.btm_left>a{
+	text-decoration: none;
+}
+.btm_1,.btm_2,.btm_3,.btm_4,.btm_5,.btm_6,.btm_7,.btm_8,.btm_9,.btm_10{
+	display: inline-block;
+	text-align: center;
+	background: url(../../public/img/phone_list20190617.png);
+}
+.btm_1,.btm_2,.btm_4{
+	width: 30px;height: 30px;
+}
+.btm_1{background-position: -90px -51px;}
+.btm_2{background-position: -90px -86px;}
+.btm_3{background-position: 0px -50px;}
+.btm_4{background-position: -90px -120px;}
+.btm_5{background-position: 4px 132px;}
+.btm_6{background-position: 0px -118px;}
+.btm_7{background-position: 0px 90px;}
+.btm_8{background-position: 0px -155px;}
+.btm_9{background-position: 0px 40px;}
+.btm_10{background-position: 0px 170px;}
+
+.btm1>span{
+	position: absolute;
+	top: 7px;
+	right: 5px;
+}
+.btm_4_span{
+	text-align: left;
+	line-height: 14px;
+	position: absolute;
+	top: 2px !important;
+	left: 32px !important;
+}
+.btm3{
+	width: 90px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+.btm5{
+	width: 97px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+
+.btm_right{
+	width: 437px;
+	height: 34px;
+	margin-top: -10px;
+	margin-right: auto;
+}
+.btm6{
+	width: 90px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+.btm7{
+	width: 104px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+.btm8{
+	width: 116px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+.btm9{
+	width: 52px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+.btm10{
+	width: 132px;height: 34px;
+	border: 1px solid #d1d1d1;
+}
+</style>

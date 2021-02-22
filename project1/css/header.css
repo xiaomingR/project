@@ -30,11 +30,14 @@
 }
 
 ._language {
+    width: 110px;
+    height: 36px;
     position: relative;
     display: inline-block;
     line-height: 36px;
     padding: 0 15px 0 13px;
     border: 1px solid transparent;
+		z-index: 11;
 }
 
 ._spirit {
@@ -47,7 +50,7 @@
 }
 
 ._language_text {
-    width: 120px;
+    width: 65px;
     position: absolute;
     top: 0px;
     left: 35px;
@@ -68,6 +71,22 @@
     height: 302px;
     padding: 10px;
     margin: 0;
+    display: none;
+   background-color: #fff;
+	 position: absolute;
+	 top: 34px;
+	 left: -1px;
+}
+._language:hover{
+    background: #fff;
+    text-decoration: none;
+    cursor: default;
+    color: #666;
+    font-size: 12px;
+    box-shadow: 0px 6px 8px 0px rgb(0 0 0 / 15%);
+}
+._language:hover .language_drop{
+   display:block;
 }
 
 .language_drop>li {
@@ -101,7 +120,7 @@
 }
 
 .language_US {
-    position: 0px 0px;
+    position: 0px 0px !important;
 }
 
 .language_UK {
@@ -381,6 +400,7 @@ a:hover {
 .bg-blue {
     background-color: #2577e3 !important;
     margin-bottom: 10px;
+    display: block;
 }
 
 ._ul a {
@@ -388,7 +408,9 @@ a:hover {
     font-size: 1rem;
     line-height: 40px;
 }
-
+._ul>li{
+    white-space: nowrap;
+}
 .unnull {
     float: left;
     display: inline-block;
