@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<my-header></my-header>
+		<my-header style="position:relative"></my-header>
 		<!-- 页面主体 -->
 		<!-- 轮播图 -->
 		<div class="slide">

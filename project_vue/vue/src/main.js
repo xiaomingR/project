@@ -7,6 +7,8 @@ import MyFooter from './components/MyFooter.vue'
 import SlideShow from './components/SlideShow.vue'
 
 
+
+
 Vue.config.productionTip = false
 Vue.component("my-header",MyHeader)
 Vue.component("my-footer",MyFooter)

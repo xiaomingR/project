@@ -2,7 +2,7 @@
   <div id="lunbo">
     <div class="head-top">
     </div>
-<!-- 轮播图所在的容器 -->
+    <!-- 轮播图所在的容器 -->
     <div class="lunbo"
          :style="{
            transition:slide+'s',
@@ -13,8 +13,11 @@
            :key="index"
            :src="item.icon"
            alt="">
-           
-
+        <!-- 轮播图上选项 -->
+		<div class="under_slide">
+					
+		</div>
+      
     </div>
 
     <div class="buttons">
@@ -26,12 +29,8 @@
            @click="changeImg(index)"></div>
       <!-- 此处将button的值传过去用于判断是否给button添加active的class属性值，从而改变按钮的颜色 -->
     </div>
-        <!-- 轮播图上选项 -->
-			<div class="under_slide">
-                
-			</div>
     
-    </div>
+  </div>
 </template>
 <script>
 export default {
@@ -186,11 +185,13 @@ export default {
   width: 100%;
 }
 .under_slide{
-    background-color: #fff;
-    width: 491px;
-    height: 300px;
-    padding: 20px 20px 5px;
-    overflow: hidden;
-    text-align: left;
+  position:absolute;
+  top:20px;left: 100px;
+  background-color: #fff;
+  width: 491px;
+  height: 300px;
+  padding: 20px 20px 5px;
+  overflow: hidden;
+  text-align: left;
 }
 </style>
