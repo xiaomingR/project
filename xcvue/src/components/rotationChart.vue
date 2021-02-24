@@ -1,35 +1,55 @@
 <template>
 <div>
-   <div class="big-div">
+  <!-- 第一行的导航栏 -->
+				<div class="subway_internal d-flex mt-2">
+					<h2 class="title">境外直通车<i></i></h2>
+					<ul class="d-flex list-unstyled line-list">
+						<li><i class="cui-icon-hotel"></i><a href="#">海外酒店</a></li>
+						<li><i class="cui-icon-flight"></i><a href="#">国际·港澳台机票</a></li>
+						<li><i class="cui-icon-car"></i><a href="#">境外租车</a></li>
+						<li><i class="cui-icon-train"></i><a href="#">国际/港台火车票</a></li>
+						<li><i class="cui-icon-outboundtravel"></i><a href="#">出境游</a></li>
+						<li><i class="cui-icon-HHtravel"></i><a href="#">高端游</a></li>
+						<li><i class="cui-icon-ticket"></i><a href="#">门票·玩乐</a></li>
+						<li><i class="cui-icon-visa"></i><a href="#">签证</a></li>
+						<li><i class="cui-icon-insurance"></i><a href="#">保险</a></li>
+						<li><i class="cui-icon-wifi"></i><a href="#">WiFi·电话卡</a></li>
+						<li><i class="cui-icon-pickup"></i><a href="#">境外接送机</a></li>
+						<li><i class="cui-icon-foreign"></i><a href="#">外币兑换</a></li>
+					</ul>
+			</div>
+
+		
+  <div class="big-div">
 					<!-- 轮播图 -->
 				<div id="parent" class="carousel" data-ride="carousel">
 					    <!--1轮播的图片  -->
 					    <div class="carousel-inner">
 								 <div class="carousel-item active">
-									<a href="#"><img class="w-100" src="../assets/1.jpg" ></a>
+									<a href="#"><img class="w-100" src="imgs/index/3.jpg" ></a>
 								 </div>
 								 <div class="carousel-item">
-									<a href="#"><img class="w-100" src="../assets/2.jpg" ></a>
+									<a href="#"><img class="w-100" src="imgs/index/2.jpg" ></a>
 								 </div>
 								 <div class="carousel-item">
-									<a href="#"><img class="w-100" src="../assets/2.jpg" ></a>
+									<a href="#"><img class="w-100" src="imgs/index/1.jpg" ></a>
 								 </div>
 								<div class="carousel-item">
-									<a href="#"><img class="w-100" src="../assets/2.jpg" ></a>
+									<a href="#"><img class="w-100" src="imgs/index/3.jpg" ></a>
 								</div>
 								<div class="carousel-item">
-									<a href="#"><img  class="w-100" src="../assets/2.jpg" ></a>
+									<a href="#"><img  class="w-100" src="imgs/index/2.jpg" ></a>
 								</div>
 						</div>
-            <!--2轮播指示器 -->
-            <ul class="carousel-indicators">
-              <li data-target="#parent" data-slide-to="0" class="active"></li>
-              <li data-target="#parent" data-slide-to="1"></li>
-              <li data-target="#parent" data-slide-to="2"></li>
-              <li data-target="#parent" data-slide-to="3"></li>
-              <li data-target="#parent" data-slide-to="4"></li>
-            </ul>
-            <!-- 搜索栏 -->
+					    <!--2轮播指示器 -->
+					    <ul class="carousel-indicators">
+					     <li data-target="#parent" data-slide-to="0" class="active"></li>
+					     <li data-target="#parent" data-slide-to="1"></li>
+					     <li data-target="#parent" data-slide-to="2"></li>
+						 <li data-target="#parent" data-slide-to="3"></li>
+						 <li data-target="#parent" data-slide-to="4"></li>
+					    </ul>
+               <!-- 搜索栏 -->
 						<div class="searchBox d-flex">
 							<!-- 左边的div -->
 							<ul class="s_tab">
@@ -117,6 +137,7 @@
 				</div>
   </div>
 </div>
+	
 </template>
 <script>
 export default {
@@ -125,11 +146,119 @@ export default {
 			value1: ''
 		}
 	}
+
+
 }
 </script>
 
-<style scoped>
-
+<style>
+.subway_internal{
+	width: 1180px;
+	margin: 0 auto
+}
+.cui-icon-hotel,.cui-icon-flight,.cui-icon-car,.cui-icon-train,.cui-icon-outboundtravel,.cui-icon-HHtravel,.cui-icon-ticket,.cui-icon-visa,.cui-icon-insurance,.cui-icon-wifi,.cui-icon-pickup,.cui-icon-foreign{
+		display: inline-block;
+		width: 16px;
+	    height: 16px;
+	    vertical-align: middle;
+	    margin-right: 5px;
+	    margin-top: -1px;
+}
+.line-list .cui-icon-hotel{
+	    background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	    background-repeat: no-repeat;
+			background-position: -26px 0;
+}
+.cui-icon-flight{
+			background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+			background-repeat: no-repeat;
+	    background-position: 0 0;
+}
+.cui-icon-car{
+			background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+			background-repeat: no-repeat;
+	    background-position: -130px 0;
+}
+.cui-icon-train{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -52px 0;
+}
+.cui-icon-outboundtravel{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -26px -52px;
+}
+.cui-icon-HHtravel{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -26px -52px;
+}
+.cui-icon-ticket{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -26px -26px;
+}
+.cui-icon-visa{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: 0 -52px;
+}
+.cui-icon-insurance{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -78px -26px;
+}
+.cui-icon-wifi{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -130px -26px;
+}
+.cui-icon-pickup{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -130px 0;
+}
+.cui-icon-foreign{
+	background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	background-position: -24px -79px;
+}
+.line-list a{
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+.line-list li{
+	margin-left: 12px;
+	
+}
+.subway_internal>.title{
+	    position: relative;
+	    /* float: left; */
+	    margin-right: 10px;
+	    padding: 4px 5px;
+	    background: #74a8ed;
+	    color: #fff;
+	    font-size: 12px;
+	    font-weight: bold;
+	    border-radius: 2px;
+			height: 25px;
+			/* line-height: 15px; */
+}
+.title>i{
+	    position: absolute;
+	    right: -8px;
+	    top: 8px;
+	    width: 0;
+	    height: 0;
+	    border: 4px solid #74a8ed;
+	    border-color: #fff #fff #fff #74a8ed;
+	    overflow: hidden;
+}
+.line-list a:hover{
+	color: #0069D9;
+}
 img{
 	display: inline-block;
 	height: 100%;
@@ -189,12 +318,6 @@ img{
 line-height: 42px;
 /* vertical-align: middle; */
 }
-.s_tab_nocurrent:hover{
-  border-left: 4px solid #ff9915;
-  background-color: #fff;
-  color: #06c;
-  cursor: pointer;
-}
 .s_tab b{
 	display: inline-block;
 	height: 42px;
@@ -203,8 +326,6 @@ line-height: 42px;
 }
 .ft{
 	border-left: 4px solid #ff9915;
-  background-color: #fff;
-  color: #06c;
 }
 .label-cn{
 	position: relative;
@@ -279,7 +400,7 @@ line-height: 42px;
 }
 .s_button_area button{
 		display: block;
-		margin-top: 14px;
+		margin-top: 35px;
 		margin-left:310px;
     width: 145px;
     height: 33px;

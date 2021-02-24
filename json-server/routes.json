@@ -1,0 +1,4 @@
+{
+  "/category\\?id=:a":"/category/:a",
+  "/product\\?id=:b":"/product/:b",
+}

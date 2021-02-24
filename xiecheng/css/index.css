@@ -1,0 +1,710 @@
+.subway_internal{
+	width: 1180px;
+	/* height: 22px; */
+}
+.line-list .cui-icon-hotel{
+			display: inline-block;
+	    background-image: url(../img/index/un_icon_index_type20170111.png);
+	    background-repeat: no-repeat;
+	    width: 16px;
+	    height: 16px;
+	    vertical-align: middle;
+	    margin-right: 5px;
+	    margin-top: -1px;
+			background-position: -26px 0;
+}
+.cui-icon-flight{
+			display: inline-block;
+			background-image: url(../img/index/un_icon_index_type20170111.png);
+			background-repeat: no-repeat;
+			width: 16px;
+			height: 16px;
+			vertical-align: middle;
+			margin-right: 5px;
+			margin-top: -1px;
+	    background-position: 0 0;
+}
+.cui-icon-car{
+			display: inline-block;
+			background-image: url(../img/index/un_icon_index_type20170111.png);
+			background-repeat: no-repeat;
+			width: 16px;
+			height: 16px;
+			vertical-align: middle;
+			margin-right: 5px;
+			margin-top: -1px;
+	    background-position: -130px 0;
+}
+.cui-icon-train{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -52px 0;
+}
+.cui-icon-outboundtravel{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -26px -52px;
+}
+.cui-icon-HHtravel{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -26px -52px;
+}
+.cui-icon-ticket{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -26px -26px;
+}
+.cui-icon-visa{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: 0 -52px;
+}
+.cui-icon-insurance{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -78px -26px;
+}
+.cui-icon-wifi{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -130px -26px;
+}
+.cui-icon-pickup{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -130px 0;
+}
+.cui-icon-foreign{
+	display: inline-block;
+	background-image: url(../img/index/un_icon_index_type20170111.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -1px;
+	background-position: -24px -79px;
+}
+.line-list a{
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+.line-list li{
+	margin-left: 12px;
+	
+}
+.subway_internal>.title{
+	    position: relative;
+	    /* float: left; */
+	    margin-right: 10px;
+	    padding: 4px 5px;
+	    background: #74a8ed;
+	    color: #fff;
+	    font-size: 12px;
+	    font-weight: bold;
+	    border-radius: 2px;
+			height: 25px;
+			/* line-height: 15px; */
+}
+.title>i{
+	    position: absolute;
+	    right: -8px;
+	    _right: -9px;
+	    top: 8px;
+	    width: 0;
+	    height: 0;
+	    border: 4px solid #74a8ed;
+	    border-color: #fff #fff #fff #74a8ed;
+	    overflow: hidden;
+}
+.line-list a:hover{
+	color: #0069D9;
+}
+.big-div{
+	width: 1920px;
+}
+.carousel-indicators li{
+	width: 0.65rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	background-color: #999;
+	margin-left: 0.3rem;
+	margin-right:0.3rem ;
+}
+.carousel-indicators .active{
+	width: 1rem;
+	height: 0.55rem;
+	background-color: #fff;
+	border-top-left-radius: 38%;
+	border-bottom-left-radius: 38%;
+	border-top-right-radius: 38%;
+	border-bottom-right-radius: 38%;
+	
+}
+
+
+
+/* 下面内容区域 */
+.mod-tmh{
+	width: 1180px;
+	margin: 0 auto;
+}
+.current{
+	list-style: none;
+	display: flex;
+	margin-bottom: 2px;
+	margin-top: 30px;
+	padding-left: 0;
+
+	
+}
+.current>li{
+	margin-right: 30px;
+}
+.tab-pane{
+	width: 1180px;
+	height: 391px;
+	border: 1px solid #E0E0E0;
+	border-top: 2px solid #3983E5;
+	margin: 0 auto;
+}
+/* 热门 */
+.tab-pane>.product{
+	position: relative;
+	height: 390px;
+	padding: 15px 19px 0;
+	border-left: 1px dotted #a3a3a3;
+	margin: 0 auto;
+}
+
+.inner-tabs-nav{
+	width: 1140px;
+	height: 20px;
+	display: flex;
+	padding-left:0;
+	margin-bottom: 10px;
+	list-style: none;
+}
+.inner-tabs-nav>li{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 8px;
+	margin-right:15px;
+	
+}
+.inner-tab-panel{
+	display: flex;
+	width: 1140px;
+	height: 330px;
+	
+}
+
+.inner-tab-panel>.inner-tab-scroll-list{
+	display: flex;
+	width: 920px;
+	height: 330px;
+	flex-wrap: wrap;
+}
+
+.inner-tab-scroll-list>.item-thumbnail{
+	width: 220px;
+	height: 160px;
+	margin-bottom: 8px;
+	margin-right:8px;
+}
+.item-thumbnail img{
+	width: 100%;
+	height: 100%;
+}
+.extra-item{
+	width: 220px;
+	height: 330ox;
+	
+}
+.extra-item>img{
+	width: 100%;
+}
+/* 周边游 */
+.tab-pane>.mod-bd-panel{
+	display: flex;
+	width: 100%;
+	height: 390px;
+}
+
+.entrance{
+	width: 227px;
+	height: 375px;
+	padding: 0 20px 15px;
+}
+dt{
+	  padding: 4px 0 0 0;
+	  font: 700 14px/34px "Microsoft yahei";
+}
+.entrance-item{
+	    float: left;
+	    display: block;
+	    border-left: 1px solid #ececec;
+	    padding: 0 10px;
+	    line-height: 18px;
+	    height: 18px;
+	    margin: 7px 0;
+			font-size: 12px;
+}
+.entrance>.top-wid{
+	width: 187px;
+	height: 102px;
+}
+.top-wid .extra{
+	border-left:none
+}
+.bottom-wid .extra{
+	border-left:none
+}
+.entrance>.bottom-wid{
+	width: 187px;
+	height: 134px;
+}
+
+.product>.product-item{
+	width: 910px;
+	height: 20px;
+}
+.product-item>ul{
+	margin-bottom: 10px;
+}
+.product li{
+	
+		float: left;
+		display: inline-block;
+	     line-height: 20px;
+	     margin-right: 15px;
+	     padding: 0 8px;
+}
+.product-item li.active{
+	    background: #3983e5;
+	    border-radius: 3px;
+			
+}
+.product-item a{
+			display: inline-block;
+			font-size: 12px;
+			text-decoration: none;
+			color: #3983e5;
+			
+			
+}
+
+.product-item .hov:hover{
+	color: #fff;
+}
+.product-item li:hover{
+	background-color: #3983e5;
+	padding: 0 8px;
+	border-radius: 3px;
+	
+}
+
+.product .product-bd{
+	display: flex;
+	width: 920px;
+	height: 340px;
+	margin-left: 3px;
+}
+.product-bd img{
+	width: 100%;
+}
+.yangshi>a{
+	display: inline-block;
+	width: 220px;
+	height: 168px;
+}
+.product-bd>.yangshi{
+			overflow: hidden;
+			float: left;
+			margin: 0 0 10px 10px;
+}
+.product-bd>.yangshi2{
+	margin-left: 0;
+}
+.yangshi .item-name{
+	font-size: 12px;
+	padding: 0 5px;
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+.yangshi>.item-thumbnail{
+	width: 220px;
+	height: 110px;
+}
+
+
+/*  */
+.product-bd{
+	flex-wrap: wrap;
+	margin-left: -10px;
+}
+
+.product-bd img{
+	width: 220px;
+	height: 110px;
+}
+.yangshi .item-info{
+	 height: 35px;
+	    text-align: right;
+	    padding: 0 5px;
+}
+dfn{
+	    vertical-align: 7px;
+	    font: 12px/1.5 arial;
+	    color: #666;
+}
+.item-info .price-info{
+	    margin-left: 3px;
+	    vertical-align: 2px;
+	    font: 12px/1.5 "Microsoft yahei";
+	    color: #666;
+}
+.item-info>.price{
+	    position: relative;
+	    float: right;
+	    font: 22px/1.5 tahoma;
+	    color: #f60;
+}
+.item-info>.diamond{
+	position: absolute;
+	    left:6px;
+	    top: 144px;
+	display: inline-block;
+	width: 48px;
+	height: 8px;
+	background: url(../img/index/un_index_20180209.png) no-repeat;
+	background-position: 0 0;
+}
+.product-bd .anhui{
+	position: relative;
+}
+/* 第二个酒店部分 */
+.entrance1{
+	width: 227px;
+	height: 375px;
+	padding: 0 20px 15px;
+}
+.product-hotel{
+	display: flex;
+}
+.left-pic{
+	display: flex;
+	flex-wrap: wrap;
+}
+.left-pic>.pic-list{
+	width: 220px;
+	height: 160px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+.left-pic>.pic-list img{
+
+	width: 100%;
+	height: 100%;
+}
+.right-pic{
+	width: 220px;
+	height: 330px;
+}
+.product1{
+	width: 949px;
+	height: 390px;
+	padding: 15px 19px 0;
+	border-left: 1px dotted #a3a3a3;
+}
+
+.entrance-item1{
+	    display: block;
+	    width: 187px;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+}
+.entrance1 a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #666;
+}
+/* 机票部分 */
+.mod-flightC{
+	width: 1180px;
+	height: 437px;
+	margin: 28px auto 0;
+}
+.flight{
+	width: 1178px;
+	height: 398px;
+	padding: 15px 19px 0;
+	border: 1px solid #E0E0E0;
+	border-top: 2px solid #3983E5;
+}
+.inner-tab-panel{
+	width: 1150px;
+	height: 353px;
+}
+.ticket{
+	    width: 220px;
+	    height: 106px;
+	    padding: 15px 12px;
+	    background: #f8f8f8;
+	    border: 1px solid #f8f8f8;
+	    cursor: pointer;
+			margin: 0 10px 10px 0;
+}
+.ticket .qishidi{
+	font-size: 12px;
+	color: #000000;
+}
+.ticket .mudidi{
+	font-size: 12px;
+	color: #000000;
+}
+.inner-tab-panel .icon{
+	display: inline-block;
+	width: 12px;
+	height: 7px;
+	background-position: -1px -116px;
+	background-image: url(../img/index/flight.png);
+}
+.fdate{
+	color: #999;
+	font-size:12px;
+}
+.price{
+	font: 22px/1.5 tahoma;
+	color: #f60;
+}
+.price-info{
+	    margin-left: 3px;
+	    vertical-align: 2px;
+	    font: 12px/1.5 "Microsoft yahei";
+	    color: #666;
+}
+.rob{
+	display: inline-block;
+	    width: auto;
+	    height: 27px;
+	    padding: 3px 15px;
+	    font: 14px/27px "Microsoft yahei";
+	    margin: 3px 0 0 0;
+	    background-color: #f7ab01;
+			color: white;
+			border-radius:4px;
+			margin-left: 60px;
+}
+/* 第四个租车模块 */
+.mod-car{
+	width: 1180px;
+	height: 299px;
+	margin: 0 auto;
+}
+.car{
+		width: 1178px;
+		height: 260px;
+		border: 1px solid #E0E0E0;
+		border-top: 2px solid #3983E5;
+	
+}
+.entrance2{
+	width: 227px;
+	height: 260px;
+	padding: 0 20px 15px;
+}
+.product3{
+	width: 949px;
+	height: 260px;
+	padding: 15px 19px 0;
+	border-left: 1px dotted #a3a3a3;
+}
+.inner-tabs{
+	width: 910px;
+	height: 20px;
+
+}
+
+.inner-tabs li{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 8px;
+	margin-right:15px;
+	background: #3983e5;
+	border-radius: 3px;
+}
+.inner-tabs a{
+	color: white;
+}
+.driver{
+	font-size: 12px;
+	display: block;
+	width: 237px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.country{
+	font-size: 12px;
+}
+/* 第五个当地玩乐 */
+ .mod-play{
+	 width: 1180px;
+	 height: 259px;
+	 margin: 28px auto 0;
+ }  
+ .play{
+	 width: 1178px;
+	 height: 220px;
+	 border: 1px solid #E0E0E0;
+	 border-top: 2px solid #3983E5;
+	 	
+ }
+ .entrance3{
+	 width: 227px;
+	 height: 220px;
+	 padding: 0 20px 15px;
+ }
+ .product4{
+	 width: 949px;
+	 height: 220px;
+ }
+ /*第六个全球购 */
+ .sales{
+	 font-size: 12px;
+ }
+ /* 第七个旅游旗舰店 */
+ .travel-word{
+	 font-size: 12px;
+	 color: #666;
+ }
+ .travel-img{
+	 width: 220px;
+	 height: 160px;
+	 
+ }
+ /* 第八个旅行服务 */
+ .mod-vas{
+	 width: 1180px;
+	 height: 193px;
+	 margin: 0 auto;
+ }
+ .mod-bd-travel{
+	 border-top: 2px solid #3983E5;
+ }
+ .supply-hd{
+	 width: 100%;
+	 height: 102px;
+ }
+.img-wifi{
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	background: #abcbf5; 
+	border-radius: 50%;
+}
+.img-wifi i{
+	    position: absolute;
+	    top: 25%;
+	    left: 18%;
+	    width: 46px;
+			height: 35px;
+	    display: inline-block;
+			background-position: 0 0;
+			background-image: url(../img/index/supply.png);
+}
+ .supply-title{
+	  font: 16px/1.5 "Microsoft yahei";
+	  margin-bottom: 5px;
+ }
+ .supply-intro{
+	 font-size: 12px;
+ }
+ /* 第九个商旅 */
+ .mod-company{
+	 width: 1180px;
+	 height: 167px;
+	 margin: 0 auto;
+ }
+ 
+ .supply-box{
+	 width: 1180px;
+	 height: 117px;
+	 border-top: 2px solid #3983E5;
+ }
+ .img-shopping{
+	 display: inline-block;
+	 width: 80px;
+	 height: 80px;
+	     background: #F8c2b3;
+	border-radius: 50%;
+ }
+.img-shopping>i{
+	    position: absolute;
+			    top: 50%;
+			    left: 18%;
+			display: inline-block;
+			width: 50px;
+	    height: 45px;
+	    margin: -23px 0 0 -25px;
+	    background-position: 0 -140px;
+			background-image: url(../img/index/supply.png);
+} 
+ /* 第十个合作伙伴 */
+ 
+ 
+ 

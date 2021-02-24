@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <ul>
+      <li><my-counter></my-counter></li>
+      <li><my-counter></my-counter></li>
+      <li><my-counter></my-counter></li>
+    </ul>
+    
+  </div>
+  <script>
+    //创建一个组件，保存计数器功能的HTML+JS+数据
+    Vue.component("my-counter",{
+      /*一个组件的定义过程和一个new Vue()的定义过程完全一样*/
+      //1. 做界面
+      //模板: 保存组件专属的HTML片段
+      //1.1 唯一父元素
+      //1.2 找可能发生变化的位置
+      //本例中: span的内容可能改变
+      //1.3 找触发事件的元素
+      //本例中: 两个按钮可能触发事件
+      template:`<div>
+        <button @click="minus">-</button>
+        <span>{{n}}</span>
+        <button @click="add">+</button>
+      </div>`,
+      //2. 不用自己创建new Vue()对象
+      //3. 创建模型对象
+      //为组件创建专属的模型对象
+      //因为界面中需要1个变量
+      data(){//必须是一个函数
+        return {//必须返回一个新对象
+          n:0 //开局, 数量为0
+        }
+      },
+      //以下和new Vue()中一样了
+      //因为界面上需要2个事件处理函数
+      methods:{
+        add(){
+          this.n++;
+        },
+        minus(){
+          if(this.n>0){
+            this.n--
+          }
+        }
+      }
+    })
+
+    new Vue({
+      el:"#app"
+    })
+  </script>
+</body>
+</html>

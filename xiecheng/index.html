@@ -1,0 +1,500 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 第一行的导航栏 -->
+    <div class="container">
+        <div class="subway_internal d-flex mt-2">
+            <h2 class="title">境外直通车<i></i></h2>
+            <ul class="d-flex list-unstyled line-list">
+                <li><i class="cui-icon-hotel"></i><a href="#">海外酒店</a></li>
+                <li><i class="cui-icon-flight"></i><a href="#">国际·港澳台机票</a></li>
+                <li><i class="cui-icon-car"></i><a href="#">境外租车</a></li>
+                <li><i class="cui-icon-train"></i><a href="#">国际/港台火车票</a></li>
+                <li><i class="cui-icon-outboundtravel"></i><a href="#">出境游</a></li>
+                <li><i class="cui-icon-HHtravel"></i><a href="#">高端游</a></li>
+                <li><i class="cui-icon-ticket"></i><a href="#">门票·玩乐</a></li>
+                <li><i class="cui-icon-visa"></i><a href="#">签证</a></li>
+                <li><i class="cui-icon-insurance"></i><a href="#">保险</a></li>
+                <li><i class="cui-icon-wifi"></i><a href="#">WiFi·电话卡</a></li>
+                <li><i class="cui-icon-pickup"></i><a href="#">境外接送机</a></li>
+                <li><i class="cui-icon-foreign"></i><a href="#">外币兑换</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 大的轮播图 -->
+    <div class="big-div">
+        <!-- 轮播图 -->
+        <div id="parent" class="carousel" data-ride="carousel">
+            <!--1轮播的图片  -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/index/3.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/index/2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/index/1.jpg">
+                </div>
+            </div>
+            <!--2轮播指示器 -->
+            <ul class="carousel-indicators">
+                <li data-target="#parent" data-slide-to="0" class="active"></li>
+                <li data-target="#parent" data-slide-to="1"></li>
+                <li data-target="#parent" data-slide-to="2"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 第一个旅游方面 -->
+    <div class="mod-tmh">
+        <!-- 第一行选项卡 -->
+        <div>
+            <ul class="current">
+                <li><a href="#">热门</a></li>
+                <li><a href="#">周边游</a></li>
+            </ul>
+        </div>
+        <!-- 热门关联div -->
+        <div class="tab-pane active">
+            <div class="product">
+                <!-- 上面的导航 -->
+                <div>
+                    <ul class="inner-tabs-nav">
+                        <li><a href="#" class="">境内</a></li>
+                        <li><a href="#" class="">日本</a></li>
+                    </ul>
+                </div>
+                <!-- 下面的图片显示 -->
+                <div class="inner-tab-panel">
+                    <!-- 左边图片 -->
+                    <div class="inner-tab-scroll-list">
+                        <div class="item-thumbnail"><img src="img/index/re.jpg" alt=""></div>
+
+                    </div>
+                    <!-- 右边图片 -->
+                    <div class="extra-item">
+                        <img src="img/index/re1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 周边游关联 -->
+        <div class="tab-pane">
+            <!-- 外层大div -->
+            <div class="mod-bd-panel">
+                <!-- 左侧div -->
+                <div class="entrance">
+                    <div class="mb-1 top-wid">
+                        <dt>热门主题游</dt>
+                        <span class="entrance-item border-0 pl-0"><a href="#">海岛</a></span>
+                        <span class="entrance-item"><a href="#">古镇</a></span>
+                        <span class="entrance-item"><a href="#">蜜月</a></span>
+                        <span class="entrance-item "><a href="#">亲子</a></span>
+                        <span class="entrance-item pl-0 extra"><a href="#">爸妈游</a></span>
+                        <span class="entrance-item"><a href="#">美食</a></span>
+                    </div>
+                    <div class="bottom-wid">
+                        <dt>热门目的地</dt>
+                        <span class="entrance-item border-0 pl-0"><a href="#">精选</a></span>
+                        <span class="entrance-item"><a href="#">上海</a></span>
+                        <span class="entrance-item"><a href="#">杭州</a></span>
+                        <span class="entrance-item"><a href="#">苏州</a></span>
+                        <span class="entrance-item pl-0 extra"><a href="#">黄山</a></span>
+                        <span class="entrance-item"><a href="#">南京</a></span>
+                        <span class="entrance-item"><a href="#">舟山</a></span>
+                        <span class="entrance-item"><a href="#">无锡</a></span>
+                        <span class="entrance-item pl-0 extra"><a href="#">宁波</a></span>
+                        <span class="entrance-item"><a href="#">安吉</a></span>
+                    </div>
+                </div>
+                <!-- 右侧div -->
+                <div class="product">
+                    <!-- 上面的导航 -->
+                    <div class="product-item mb-2">
+                        <ul class="d-flex list-unstyled mt-1 ">
+                            <li class="active"><a href="#" class="text-white">精选</a></li>
+
+                        </ul>
+                    </div>
+                    <!-- 下面的图片 -->
+                    <div class="product-bd">
+                        <div class="putuo yangshi yangshi2">
+                            <a href="#">
+                                <div class="item-thumbnail"><img src="img/index/putuo.jpg"></div>
+                                <p class="item-name mb-0 mt-0">
+                                    浙江普陀山2日1晚跟团游·【疫情过后·佛岛祈福】登佛顶山，拜普济寺、法雨寺、南海观音，宿“海边”客栈，人民广场/松江郊区，上车点自由选择【浙里好玩】</p>
+                                <p class="item-info mt-0 mb-0">
+                                    <span class="price">
+										<dfn>￥</dfn>
+										335
+										<i class="price-info">起</i>
+									</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 第二个酒店部分 -->
+    <div class="mod-tmh">
+        <!-- 上层导航 -->
+        <div>
+            <ul class="current">
+                <li><a href="">海外酒店</a></li>
+                <li><a href="">海外民宿+短租</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容区域 -->
+        <div class="tab-pane d-flex">
+            <!-- 左侧的文字 -->
+            <div class="entrance1">
+                <dt>促销</dt>
+                <p><a href="#">睡遍全世界—新加坡国家馆</a></p>
+                <p><a href="#">睡遍全世界—日本国家馆</a></p>
+                <p><a href="#">睡遍全世界—澳大利亚站</a></p>
+                <p><a href="#">睡遍全世界—马来西亚国家馆</a></p>
+                <p><a href="#">睡遍全世界—泰国国家馆</a></p>
+                <dt>发现酒店</dt>
+                <p><a href="#" class="entrance-item1">流行与复古结合的热门人气地——首尔仁寺洞钟路</a></p>
+                <p><a href="#" class="entrance-item1">特别的旅行，美味的餐食，绝美的夜景，这次冬季旅行就去釜山吧</a></p>
+                <p><a href="#">孟加拉国吉大港酒店推荐</a></p>
+                <p><a href="#">最受国人欢迎的伦敦酒店</a></p>
+            </div>
+            <!-- 右侧div -->
+            <div class="product1">
+                <!-- 上面的导航 -->
+                <div class="product-item mb-2">
+                    <ul class="d-flex list-unstyled">
+                        <li class="active pl-2 pr-2"><a href="#" class="text-white">热门城市</a></li>
+                    </ul>
+                </div>
+                <!-- 下面的图片 -->
+                <div class="product-hotel">
+                    <!-- 左边图片 -->
+                    <div class="left-pic">
+                        <div class="pic-list"><img src="img/index/re.jpg"></div>
+                        <div class="pic-list"><img src="img/index/re.jpg"></div>
+                        <div class="pic-list"><img src="img/index/re.jpg"></div>
+                        <div class="pic-list"><img src="img/index/re.jpg"></div>
+                        <div class="pic-list"><img src="img/index/re.jpg"></div>
+                        <div class="pic-list"><img src="img/index/re.jpg"></div>
+                    </div>
+                    <!-- 右边的图片 -->
+                    <div class="right-pic"><img src="img/index/re1.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第三个特价机票 -->
+    <div class="mod-flightC">
+        <!-- 上面的导航 -->
+        <div>
+            <ul class="current">
+                <li><a href="#">国际·港澳台特价机票</a></li>
+                <li><a href="#">国内特价机票</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容 -->
+        <div class="flight">
+            <!-- 上面的导航 -->
+            <div class="product-item mb-2">
+                <ul class="inner-tabs-nav">
+                    <li class="active pl-2 pr-2"><a href="#" class="text-white">热门往返</a></li>
+                </ul>
+            </div>
+            <!-- 下面的车票 -->
+            <div class="inner-tab-panel active d-flex flex-wrap">
+                <div class="ticket">
+                    <a href="#">
+                        <span class="qishidi">上海</span>
+                        <i class="icon ml-1 mr-1"></i>
+                        <span class="mudidi">澳门</span>
+                        <p class="fdate mb-2">12月01日-12月08日</p>
+                        <dfn>¥</dfn>
+                        <span class="price">522</span>
+                        <i class="price-info">起</i>
+                        <a href="#" class="rob pb-2">立抢</a>
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 第四个租车 -->
+    <div class="mod-car">
+        <!-- 上面的导航栏 -->
+        <div>
+            <ul class="current">
+                <li><a href="">境外租车</a></li>
+                <li><a href="">境外接送机</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容区 -->
+        <div class="car d-flex">
+            <!-- 左边的文字 -->
+            <div class="entrance2">
+                <dt>热门城市</dt>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">香港</a></span>
+                <span class="entrance-item"><a href="#">曼谷</a></span>
+                <span class="entrance-item"><a href="#">首尔</a></span>
+                <span class="entrance-item"><a href="#">吉普岛</a></span>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">台北</a></span>
+                <span class="entrance-item "><a href="#">新加坡</a></span>
+                <span class="entrance-item"><a href="#">东京</a></span>
+                <span class="entrance-item"><a href="#">清迈</a></span>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">吉隆坡</a></span>
+                <span class="entrance-item"><a href="#">巴厘岛</a></span>
+            </div>
+            <!-- 右边的图片 -->
+            <div class="product3">
+                <!-- 上面的导航栏 -->
+                <div>
+                    <ul class="inner-tabs mt-1 mb-1 list-unstyled">
+                        <li><a href="">泰国</a></li>
+                    </ul>
+                </div>
+                <!-- 下面的图片 -->
+                <div class="d-flex">
+                    <div class="col-3 p-0">
+                        <a href="#">
+                            <div><img src="img/index/mg.jpg" class="w-100"></div>
+                            <p class="p-0 m-0 driver">品质专车接送机</p>
+                            <p class="p-0 m-0">
+                                <span class="country">泰国·曼谷</span>
+                                <dfn>¥</dfn>
+                                <span class="price">115</span>
+                                <i class="price-info">起</i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第五个当地玩乐 -->
+    <div class="mod-play">
+        <!-- 上面导航-->
+        <div>
+            <ul class="current">
+                <li><a href="">当地玩乐·出境</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容 -->
+        <div class="play d-flex">
+            <!-- 左侧的文字 -->
+            <div class="entrance3">
+                <dt>热门目的地</dt>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">香港</a></span>
+                <span class="entrance-item"><a href="#">曼谷</a></span>
+                <span class="entrance-item"><a href="#">首尔</a></span>
+                <span class="entrance-item"><a href="#">吉普岛</a></span>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">台北</a></span>
+                <span class="entrance-item "><a href="#">新加坡</a></span>
+                <span class="entrance-item"><a href="#">东京</a></span>
+                <span class="entrance-item"><a href="#">清迈</a></span>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">吉隆坡</a></span>
+                <span class="entrance-item"><a href="#">巴厘岛</a></span>
+
+            </div>
+            <!-- 右侧的图片 -->
+            <div class="product4">
+                <!-- 上面的导航 -->
+                <div>
+                    <ul class="inner-tabs mt-2 mb-2 list-unstyled">
+                        <li><a href="">一日游</a></li>
+                        <li><a href="">当地交通</a></li>
+                    </ul>
+                </div>
+                <!-- 下面的图片 -->
+                <div class="d-flex">
+                    <div class="col-3 p-0">
+                        <a href="#">
+                            <div><img src="img/index/play.jpg" class="w-100"></div>
+                            <p class="p-0 m-0 driver">普吉岛皮皮岛浮潜一日游【可选竹子岛/鸡蛋岛/蜜月岛/网红游艇】</p>
+                            <p class="p-0 m-0">
+                                <span class="country">普吉岛</span>
+                                <dfn>¥</dfn>
+                                <span class="price">326</span>
+                                <i class="price-info">起</i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 第六个全球购-->
+    <div class="mod-play">
+        <!-- 上面导航-->
+        <div>
+            <ul class="current">
+                <li><a href="">全球购</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容 -->
+        <div class="play d-flex">
+            <!-- 左侧的文字 -->
+            <div class="entrance3">
+                <dt>热门目的地</dt>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">香港</a></span>
+                <span class="entrance-item"><a href="#">曼谷</a></span>
+                <span class="entrance-item"><a href="#">首尔</a></span>
+                <span class="entrance-item"><a href="#">吉普岛</a></span>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">台北</a></span>
+                <span class="entrance-item "><a href="#">新加坡</a></span>
+                <span class="entrance-item"><a href="#">东京</a></span>
+                <span class="entrance-item"><a href="#">清迈</a></span>
+                <span class="entrance-item border-0 pl-0 extra"><a href="#">吉隆坡</a></span>
+                <span class="entrance-item"><a href="#">巴厘岛</a></span>
+
+            </div>
+            <!-- 右侧的图片 -->
+            <div class="product4">
+                <!-- 上面的导航 -->
+                <div>
+                    <ul class="inner-tabs mt-2 mb-2 list-unstyled">
+                        <li><a href="">一日游</a></li>
+                        <li><a href="">当地交通</a></li>
+                    </ul>
+                </div>
+                <!-- 下面的图片 -->
+                <div class="d-flex">
+                    <div class="col-3 p-0">
+                        <a href="#">
+                            <div><img src="img/index/globel.jpg" class="w-100"></div>
+                            <p class="p-0 m-0 driver">伦敦比斯特购物村 Bicester Village</p>
+                            <p class="p-0 m-0">
+                                <span class="country">英国 · 伦敦</span>
+                                <span class="sales">
+									<a href="#" class="border border-primary text-primary pl-1 pr-1 ml-5 sales">促销</a>
+									<a href="#" class="border border-danger text-danger pl-1 pr-1 sales">返现</a>
+								</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 第七个旅游旗舰店 -->
+    <div class="mod-play">
+        <!-- 上面导航-->
+        <div>
+            <ul class="current">
+                <li><a href="">旅游旗舰店</a></li>
+                <li><a href="">目的地攻略</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容 -->
+        <div class="play d-flex">
+            <!-- 左侧的文字 -->
+            <div class="entrance3">
+                <dt>当季推荐</dt>
+                <p><a href="#" class="travel-word">圣托里尼：永恒的蓝白世界</a></p>
+                <p><a href="#" class="travel-word">哥本哈根：走进安徒生的童话世界</a></p>
+                <p><a href="#" class="travel-word">圣彼得堡：风光迤逦的北方威尼斯</a></p>
+                <p><a href="#" class="travel-word">清迈：文艺清新的泰北明珠</a></p>
+                <p><a href="#" class="travel-word">柏林：啤酒相约猪肘</a></p>
+
+            </div>
+            <!-- 右侧的图片 -->
+            <div class="product4">
+                <!-- 上面的导航 -->
+                <div>
+                    <ul class="inner-tabs mt-2 mb-3 list-unstyled">
+                        <li><a href="">氢气球专栏</a></li>
+                        <li><a href="">旅行正当时</a></li>
+                    </ul>
+                </div>
+                <!-- 下面的图片 -->
+                <div class="d-flex">
+                    <div class="col-3 p-0">
+                        <a href="#">
+                            <div class="travel-img"><img src="img/index/travel.jpg" class="w-100"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第八个旅行服务 -->
+    <div class="mod-vas">
+        <div>
+            <ul class="current">
+                <li><a href="">旅行服务</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容 -->
+        <div class="mod-bd-travel d-flex">
+            <div class="col-4 border border-muted bg-white mt-2">
+                <!-- 上面的div -->
+                <div class="supply-hd d-flex">
+                    <div class="mt-2 ml-3">
+                        <span class="img-wifi"><i></i></span>
+                    </div>
+                    <div class="ml-3">
+                        <span>
+							<p class="supply-title mt-2">出境WiFi</p>
+							<p class="supply-intro mb-0 mt-2">全球出境WiFi租赁</p>
+							<p class="supply-intro mt-0">流量不限、多人共享、携带便捷、低价信号强</p>
+						</span>
+                    </div>
+                </div>
+                <!-- 下面的div -->
+                <div>
+                    <ul class="d-flex list-unstyled">
+                        <li><a href="" class="text-dark"><i></i>日本</a></li>
+                        <li><a href="" class="text-dark"><i></i>韩国</a></li>
+                        <li><a href="" class="text-dark"><i></i>欧洲通用</a></li>
+                        <li><a href="" class="text-dark"><i></i>更多</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 第九个企业商旅 -->
+    <div class="mod-company">
+        <div>
+            <ul class="current">
+                <li><a href="">企业商旅</a></li>
+            </ul>
+        </div>
+        <!-- 下面的内容 -->
+        <div class="supply-box">
+            <div class="col-4 mt-2 border border-muted d-flex pt-3 pb-3">
+                <div class="ml-3"><span class="img-shopping"><i></i></span></div>
+                <div class="ml-3">
+                    <p class="supply-title mb-0 mt-2">差旅预订管理</p>
+                    <p class="supply-intro mt-0">海量差旅产品，全流程服务，智能管控，助力企业差旅降本提效！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第十个合作伙伴 -->
+</body>
+
+</html>

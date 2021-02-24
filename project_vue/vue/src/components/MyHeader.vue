@@ -619,10 +619,13 @@ a:hover {
 
 ._phone_short {
     border: 1px solid #fff;
+    padding-right: 10px;
 }
 
 ._phone_long {
     display: none;
+    padding-right: 10px;
+
 }
 
 ._phone_num:hover ._phone_long {
@@ -639,7 +642,7 @@ a:hover {
     position: absolute;
     top: 20px;
     right: 0px;
-    width: 250px;
+    width: 200px;
     z-index: 2;
 }
 

@@ -1,0 +1,16 @@
+.cui-nav-bar{
+	font: 12px;
+	color: #333;
+	background: #F4F4F4;
+}
+.cui-nav-bar .nav-bar-cont{
+	width: 980px;
+	height: 36px;
+	margin: 0 auto;
+}
+.cui-nav-bar .slogan{
+	font-size: 12px;
+	color: #666;
+	display: inline-block;
+	margin: 10px 0 0 14px;
+}

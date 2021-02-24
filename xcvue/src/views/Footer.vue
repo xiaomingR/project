@@ -1,0 +1,383 @@
+<template>
+  <!-- <div class="container"> -->
+				<div class="row no-gutters">
+					<!-- 外层最大div -->
+					<div class="big-foot d-flex">
+						<!-- 左边第一个div -->
+						<div class="item1 pr-2">
+							<p class="why-p mb-2">为什么选择携程</p>
+							<div class="item-1-bot">
+								<div class="left-intr d-flex mb-3">
+									<i></i>
+									<div>	
+										<p class="p1 mb-1">放心的服务</p>
+										<p class="m-0">领先的服务标准 独创的保障体系</p>
+									</div>
+								</div>
+								<div class="left-intr2 d-flex">
+									<i></i>
+									<div>	
+										<p class="p2 mb-1">放心的价格</p>
+										<p>具竞争力的价格 无任何隐形费用</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 第二个div -->
+						<div class="item2  d-flex">
+							<ul class="list-unstyled">
+								<dt class="message">旅游资讯</dt>
+								<li><a href="#">宾馆索引</a></li>
+								<li><a href="#">攻略索引</a></li>
+								<li><a href="#">机票索引</a></li>
+								<li><a href="">网站导航</a></li>
+								<li><a href="#">旅游索引</a></li>
+								<li><a href="">火车票索引</a></li>
+								<li><a href="#">邮轮索引</a></li>
+								<li><a href="">企业差旅索引</a></li>
+								<li><a href="#">用车索引</a></li>
+							</ul>
+						</div>
+						<!-- 第三个div -->
+						<div class="item2  d-flex">
+							<ul class="list-unstyled">
+								<dt class="message">加盟合作	</dt>
+								<li><a href="#">分销加盟</a></li>
+								<li><a href="#">友情链接</a></li>
+								<li><a href="#">广告业务</a></li>
+								<li><a href="">企业礼品卡采购</a></li>
+								<li><a href="#">保险代理</a></li>
+								<li><a href="">代理合作</a></li>
+								<li><a href="#">酒店加盟</a></li>
+								<li><a href="">目的地及景区合作</a></li>
+								<li><a href="#">智慧旅游</a></li>
+								<li><a href="#">更多加盟合作</a></li>
+							</ul>
+						</div>
+						<!-- 第四个div -->
+						<div class="item4  d-flex">
+							<ul class="list-unstyled">
+								<dt class="message">关于携程	</dt>
+								<li><a href="#">关于携程</a></li>
+								<li><a href="#">携程热点</a></li>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="">诚聘英才</a></li>
+								<li><a href="#">旅游度假资质</a></li>
+								<li><a href="">企业公民</a></li>
+								<li><a href="#">用户协议</a></li>
+								<li><a href="">隐私政策</a></li>
+								<li><a href="#">营业执照</a></li>
+								<li><a href="#">安全中心</a></li>
+								<li><a href="#">携程信用卡</a></li>
+								<li><a href="#">知识产权</a></li>	
+							</ul>
+						</div>
+						
+						<!-- 第五个div -->
+						<div class="item5">
+							<dt class="message">微信公众号</dt>
+							<ul class="erweima ml-4">
+								<li class="list-unstyled">
+									<span>
+										<img src="//pic.c-ctrip.com/platform/online/home/er_ctrip_wechat_new.jpg">
+									</span>
+									<p class="p-0 m-0">扫一扫</p>
+									<p>了解爆款旅行好货</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- 下面大div -->
+					<div class="under-big-foot">
+						<p class="p-0 m-0">
+							<a href="#">Copyright©</a>
+							1999-2020, <a href="#">ctrip.com</a>. All rights reserved. | 
+							<a href="#">ICP证：沪B2-20050130 | </a><a href="#">沪ICP备08023580号</a>
+						</p>
+						<p class="picture2 p-0 m-0 pt-2">
+							<a href="#"><i></i>沪公网备31010502002731号
+							</a>
+						</p>
+						<p class="p-0 m-0 pt-2 pb-2">
+							违法和不良信息举报电话021-22500846丨全国旅游投诉热线12301丨
+							<a href="#">上海市旅游网站落实诚信建设主体责任承诺书</a>
+						</p>
+						<div class="honour mt-1">
+							<a href="#" class="honour1">信用评级</a>
+							<a href="#" class="honour2">上海工商 </a>
+							<a href="#" class="honour3" title="征信网"></a>
+							<a href="#" class="honour4">网络社会征信网</a>
+							<a href="#" class="honour5" title="上海市互联网违法与违规信息举报中心"></a>
+							<a href="#" class="honour6" title="可信用网"></a>
+						</div>
+						<div class="honour2">
+							<a href="#" class="honour7" title="信用中国"></a>
+							<a href="#" class="honour8" title="网上有害信息举报专区"></a>
+							<a href="#" class="honour9" title="消费维权联络点"></a>
+							<a href="#" class="honour10" title="网购大家评"></a>
+						</div>
+					</div>
+					
+				</div>
+			<!-- </div> -->
+</template>
+<script>
+export default {
+  
+}
+</script>
+<style>
+.big-foot{
+	width: 1180px;
+	height: 208px;
+	color: #666;
+	padding: 28px 0 30px 0;
+	font-size: 12px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.item1{
+	width: 245px;
+	height: 150px;
+	border-right: 1px solid #dedede;
+	padding-right: 10px;
+}
+.item-1-bot{
+	width: 235px;
+	height: 150px;
+	
+}
+.left-intr>i{
+	       display: inline-block;
+	       width: 45px;
+	       height: 36px;
+	       background-image: url(../../public/imgs/footer/pic_partner.png);
+	       background-repeat: no-repeat;
+				 background-position: -41px -250px;
+}
+.why-p{
+	font: 16px/20px 'Microsoft yahei';
+}
+.p1{
+	color: #2577e3;
+	font: bold 16px "Microsoft Yahei";
+	
+}
+.left-intr2>i{
+	       display: inline-block;
+	       width: 45px;
+	       height: 36px;
+	       background-image: url(../../public/imgs/footer/pic_partner.png);
+	       background-repeat: no-repeat;
+				 background-position: -41px -200px;
+}
+.p2{
+	color: #ff9913;
+	font: bold 16px "Microsoft Yahei";
+}
+.item2{
+	width: 261px;
+	height: 150px;
+	padding: 0 10px 0 40px;
+	border-right: 1px solid #dedede;
+}
+.item2 li{
+	float: left;
+	    display: inline-block;
+	    width: 105px;
+	    line-height: 14px;
+			margin: 6px 0;
+}
+.item2 a{
+	color:#666;;
+}
+.message{
+	font: 16px/20px 'Microsoft yahei';
+	    margin-bottom: 10px;
+	    margin-top: -3px;
+}
+.item2>ul>li>a:hover{
+	color: #007BFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+.item4{
+		width: 251px;
+		height: 150px;
+		padding: 0 0 0 40px;
+		border-right: 1px solid #dedede;
+}
+.item4 li{
+	float: left;
+	    display: inline-block;
+	    width: 105px;
+	    line-height: 14px;
+			margin: 6px 0;
+}
+.item4 a{
+	color:#666;;
+}
+.message{
+	font: 16px/20px 'Microsoft yahei';
+	    margin-bottom: 10px;
+	    margin-top: -3px;
+}
+.item4>ul>li>a:hover{
+	color: #007BFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+.item5{
+	width: 161px;
+	height: 150px;
+	margin-top:-8px;
+}
+.item5 .erweima{
+	width: 132px;
+	height: 170px;
+	padding: 8px;
+	border: 1px solid #efefef;
+	
+}
+.item5 p{
+	text-align: center;
+	color: #999;
+}
+.item5 dt{
+	text-align: center;
+	font-size: 12px;
+}
+.under-big-foot{
+	width: 1180px;
+	margin-top: 32px;
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+margin: 0 auto;
+	
+}
+.under-big-foot a{
+	color: #999;
+}
+.picture2{
+	text-align: center
+}
+.picture2 i{
+			display: inline-block;
+	    width: 20px;
+	    height: 20px;
+			vertical-align: middle; 
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+	    background-position: 0 -235px;
+			margin-right: 4px;
+	  
+}
+.honour{
+	margin-left: 80px;
+}
+.honour a{
+			float: left;
+	    margin: 0 4px;
+	    width: 88px;
+	    height: 32px;
+	    border: 1px solid #d1d1d1;
+	    border-radius: 2px;
+	    font: 12px/32px Simsun;
+			text-align: right;
+			padding-right: 4px;
+}
+.honour>.honour1{
+	    width: 90px;
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: -88px -50px;
+			 
+}
+.honour>.honour2{
+	    width: 88px;
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: -88px -85px;
+			margin-bottom: 45px;
+			
+}
+
+.honour>.honour3{
+	    width: 88px;
+	   
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: 0 -50px;
+			text-align: right;
+}
+.honour>.honour4{
+	    width: 88px;
+	   
+	    line-height: 1.2;
+		  padding: 2px 0 2px 37px;
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: -88px -118px;
+			text-align: left;
+}
+.honour>.honour5{
+	    width: 88px;
+	    
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: 0 -387px;
+		
+}
+.honour>.honour6{
+	    width: 88px;
+	   
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: 0 -118px;
+			
+}
+.honour2 a{
+			float: left;
+	    margin: 0 4px;
+	    width: 88px;
+	     height: 32px;
+	    border: 1px solid #d1d1d1;
+	    border-radius: 2px;
+	    font: 12px/32px Simsun;
+			
+}
+.honour2>.honour7{
+	    width: 102px;
+	   
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+		  background-position: 0 -429px;
+			
+}
+.honour2>.honour8{
+	    width: 114px;
+	  
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+		      background-position: 0 -155px;
+			
+}
+.honour2>.honour9{
+	    width: 50px;
+	    
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: 0 -480px;
+			
+}
+.honour2>.honour10{
+	    width: 130px;
+	  
+			background-image: url(../../public/imgs/footer/phone_list20190617.png);
+			background-repeat: no-repeat;
+			background-position: 0 -350px;
+			
+}
+</style>
